@@ -3,5 +3,23 @@
   "version": "1.0.0",
   "description": "Movie API with Graphql",
   "main": "index.js",
-  "license": "MIT"
+  "repository": "https://github.com/lifeisegg2k/movie-graphql.git",
+  "author": "lifeisegg <lifeisegg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }
